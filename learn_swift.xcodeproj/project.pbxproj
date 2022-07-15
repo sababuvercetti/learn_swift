@@ -14,6 +14,7 @@
 		A22C1F172881973F008A1137 /* learn_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C1F162881973F008A1137 /* learn_swiftTests.swift */; };
 		A22C1F212881973F008A1137 /* learn_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C1F202881973F008A1137 /* learn_swiftUITests.swift */; };
 		A22C1F232881973F008A1137 /* learn_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C1F222881973F008A1137 /* learn_swiftUITestsLaunchTests.swift */; };
+		A22C1F3028819ADE008A1137 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C1F2F28819ADE008A1137 /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A22C1F1C2881973F008A1137 /* learn_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learn_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22C1F202881973F008A1137 /* learn_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learn_swiftUITests.swift; sourceTree = "<group>"; };
 		A22C1F222881973F008A1137 /* learn_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learn_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A22C1F2F28819ADE008A1137 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				A22C1F072881973D008A1137 /* ContentView.swift */,
 				A22C1F092881973F008A1137 /* Assets.xcassets */,
 				A22C1F0B2881973F008A1137 /* Preview Content */,
+				A22C1F2F28819ADE008A1137 /* HomePage.swift */,
 			);
 			path = learn_swift;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A22C1F082881973D008A1137 /* ContentView.swift in Sources */,
+				A22C1F3028819ADE008A1137 /* HomePage.swift in Sources */,
 				A22C1F062881973D008A1137 /* learn_swiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
