@@ -9,16 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment:.leading) {
-            Text("Sam Rocks")
-                .font(.largeTitle).foregroundColor(.black).padding()
-            HStack {
-                Text("Maasai Mara Nationlal reserve")
-                    .font(.subheadline)
+        VStack {
+            MapView().frame(height: 300)
+            CircleImage().offset(y:-130).padding(.bottom,-130)
+            VStack(alignment:.leading) {
+                Text("Sam Rocks")
+                    .font(.largeTitle).foregroundColor(.black).padding()
+                HStack {
+                    Text("Maasai Mara Nationlal reserve")
+                        .font(.subheadline)
+                    Spacer()
+                    Text("Narok")
+                        .font(.subheadline)
+                    
+                }
+                Divider()
+
+                                Text("About Maasai Mara")
+                                    .font(.title2)
+                                Text("The Maasai Mara game reserve is shared between two countries, Kenya and Tanzania")
                 Spacer()
-                Text("Narok")
-                    .font(.subheadline)
             }.padding()
+            
         }
     }
 }
