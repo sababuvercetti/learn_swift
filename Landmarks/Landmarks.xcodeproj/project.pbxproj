@@ -23,6 +23,7 @@
 		A29073E328898934008FA29E /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29073E228898934008FA29E /* LandmarksTests.swift */; };
 		A29073ED28898934008FA29E /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29073EC28898934008FA29E /* LandmarksUITests.swift */; };
 		A29073EF28898934008FA29E /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29073EE28898934008FA29E /* LandmarksUITestsLaunchTests.swift */; };
+		A2F69B8328991F8600D28485 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F69B8228991F8600D28485 /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		A29073E828898934008FA29E /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29073EC28898934008FA29E /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		A29073EE28898934008FA29E /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2F69B8228991F8600D28485 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A29073D328898933008FA29E /* ContentView.swift */,
 				A28DA6012897ED35005D9689 /* Helpers */,
 				A28DA6022897ED47005D9689 /* Landmarks */,
+				A2F69B8228991F8600D28485 /* HexagonParameters.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				A20BE6BB288AC0B100F5227B /* MapView.swift in Sources */,
 				A29073D228898933008FA29E /* LandmarksApp.swift in Sources */,
 				A28DA6002897EC96005D9689 /* FavoriteButton.swift in Sources */,
+				A2F69B8328991F8600D28485 /* HexagonParameters.swift in Sources */,
 				A24EEB152892C9970099773D /* LandmarkList.swift in Sources */,
 				A24EEB172892CB4B0099773D /* LandmarkDetail.swift in Sources */,
 				A20BE6B9288ABE1000F5227B /* CircleImage.swift in Sources */,
